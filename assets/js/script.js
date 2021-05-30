@@ -1,6 +1,7 @@
 $(function () {
     $("#clickComenzar").click(function () {
-        alert("Haz click para comenzar o pulsa Enter");
+        var email = prompt("Ingresa tu correo");
+        alert("Te contactaremos pronto");
     });
 });
 
