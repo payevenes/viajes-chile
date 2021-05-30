@@ -3,6 +3,12 @@ body {
     background-color: black;
 }
 
+.navbar.scrolled {
+    background-color: #88CDD7 !important;
+    transition: background-color 200ms linear;
+}
+
+
 hr {
     width: 90%;
     margin-left: auto;
