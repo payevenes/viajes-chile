@@ -1,3 +1,4 @@
+//Cambiar color de Navbar en scroll después de pasar la sección carousel
 $(function () {
     $(document).scroll(function () {
         var $nav = $(".navbar");
@@ -6,6 +7,7 @@ $(function () {
     });
 });
 
+//Formulario de contacto
 $(function () {
     $("#clickComenzar").click(function () {
         var email = prompt("Ingresa tu correo");
@@ -13,6 +15,7 @@ $(function () {
     });
 });
 
+//Párrafo de las Cards desaparece al click
 $(".card-title").click(function () {
     $(".card-text").toggle();
 });
