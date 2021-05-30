@@ -1,0 +1,10 @@
+body {
+    font-family: Open Sans, sans sans-serif;
+    background-color: black;
+}
+
+hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
